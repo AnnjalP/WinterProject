@@ -18,10 +18,10 @@ def initiate(t2, x, y, colore):
 initiate(t,-200,75,"white")
 t.pensize(5)
 for i in range(100):
-    x = random.randrange(-1000,1000)
-    y = random.randrange(-100,1000)
+    a = random.randrange(-1000,1000)
+    b = random.randrange(-100,1000)
     t.penup()
-    t.goto(x,y)
+    t.goto(a,b)
     t.dot()
 
 #snow
